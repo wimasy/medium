@@ -1,1 +1,1 @@
-Kode
+Kode program artikel Medium : 
