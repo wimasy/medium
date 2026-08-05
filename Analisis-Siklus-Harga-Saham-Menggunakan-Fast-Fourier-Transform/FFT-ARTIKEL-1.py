@@ -48,7 +48,7 @@ window = cycle_period/2
 peaks, _ = find_peaks(close_flat, distance=window)
 troughs, _ = find_peaks(-close_flat, distance=window)
 
-print(f"Terdapat {len(peaks)} peaks dan {len(troughs)} troughs.")
+print(f"Terdapat {len(peaks)} peak dan {len(troughs)} trough.")
 
 peak_dates = close_ser.index[peaks]
 trough_dates = close_ser.index[troughs]
